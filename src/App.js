@@ -12,7 +12,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://www.trivia.org"
+          href="https://www.trivia.com"
           target="_blank"
           rel="noopener noreferrer"
         >
