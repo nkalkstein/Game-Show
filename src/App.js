@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './crystal-shine.svg';
 import './App.css';
 
 function App() {
@@ -12,11 +12,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.trivia.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Trivia
         </a>
       </header>
     </div>
