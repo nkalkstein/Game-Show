@@ -7,11 +7,20 @@ class Question extends Component{
 
 	state = {
 
-		question = question
+		question = ''
 
 	}
 
 
+componentDidMount() {
+
+	     retrieveQuestion({key: API_KEY, term: `${cityName} ${countryName} food`, maxResults: 6}, (videos) => {
+	            this.setState({
+	            	question: question
+
+	            })
+	          })
+	       }
 
 
 
