@@ -3,13 +3,11 @@ import MainPage from './MainPage';
 import Question from './question'
 
 
-class Flight extends Component{
+class Question extends Component{
 
 	state = {
 
-		chosenflight = chosenflight
-		flights = flights
-		myflight = myflight
+		question = question
 
 	}
 
@@ -17,4 +15,4 @@ class Flight extends Component{
 
 
 
-export default question
+export default Question

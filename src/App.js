@@ -21,7 +21,7 @@ function App() {
           Trivia
         </a>
         <p>
-        <button href="https://opentdb.com/api.php?amount=1">Click Here for a Question</button>
+        <button>Click Here for a Question</button>
         </p>
       </header>
     </div>
