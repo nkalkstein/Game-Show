@@ -18,6 +18,9 @@ function App() {
         >
           Trivia
         </a>
+        <p>
+        <button>Click Here for a Question</button>
+        </p>
       </header>
     </div>
   );
