@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './crystal-shine.svg';
 import './App.css';
+import Question from './question'
+
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
           Trivia
         </a>
         <p>
-        <button>Click Here for a Question</button>
+        <button href="https://opentdb.com/api.php?amount=1">Click Here for a Question</button>
         </p>
       </header>
     </div>
